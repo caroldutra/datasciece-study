@@ -1,3 +1,5 @@
+# The presented code will create a text file named "descricoes_vagas.txt"
+# with job descriptions in the data science area listed on linkedin.
 
 from selenium import webdriver
 from time import sleep
@@ -27,4 +29,3 @@ while True:
 
 with open('descricoes_vagas.txt', 'w', encoding="utf-8") as f:
     f.write(descricao)
-
