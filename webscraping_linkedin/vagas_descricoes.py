@@ -27,5 +27,4 @@ while True:
 
 with open('descricoes_vagas.txt', 'w', encoding="utf-8") as f:
     f.write(descricao)
-    
 
